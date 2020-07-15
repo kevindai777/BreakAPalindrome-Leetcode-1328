@@ -25,5 +25,5 @@ for (let i = 0; i < palindrome.length; i++) {
     return palindrome.substring(0, i) + 'a' + palindrome.substring(i + 1)
 }
 
-//If it's not possible, just add a 'b' at the end
+//If it's not possible, just replace the last letter with a 'b'
 return palindrome.substring(0, palindrome.length - 1) + 'b'
